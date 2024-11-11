@@ -1,0 +1,40 @@
+.mechanism {
+  /* .mechanism__container */
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  &__container {
+  }
+
+  /* .mechanism__inner */
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  /* .mechanism__title */
+
+  &__title {
+  }
+
+  /* .mechanism__text-box */
+
+  &__text-box {
+  }
+
+  /* .mechanism__img-box */
+
+  &__img-box {
+    width: 70.2rem;
+    height: 62.2rem;
+    margin: 0 auto;
+    border-radius: 4.8rem;
+    overflow: hidden;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

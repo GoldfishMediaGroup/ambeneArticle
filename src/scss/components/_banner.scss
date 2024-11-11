@@ -1,0 +1,75 @@
+.banner {
+  padding-bottom: 5.2rem;
+
+  /* .banner__container */
+
+  &__container {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #9bc5de 35.89%, #68abd7 100%);
+    border-radius: 0 0 8rem 8rem;
+    position: relative;
+    padding-bottom: 20.2rem;
+    overflow: visible;
+  }
+
+  /* .banner__inner */
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 90.8rem;
+  }
+
+  /* .banner__logo */
+
+  &__logo {
+    font-weight: 800;
+    font-size: 3.4rem;
+    color: #fff;
+    width: 19rem;
+  }
+
+  /* .banner__title */
+
+  &__title {
+    font-weight: 800;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* .banner__bg-wrapper */
+
+  &__bg-wrapper {
+    position: absolute;
+    inset: 0;
+    top: 4rem;
+    pointer-events: none;
+  }
+
+  /* .banner__bg-box */
+
+  &__bg-box {
+    position: absolute;
+    inset: 0;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+  }
+
+  /* .banner__bg-el-box */
+
+  &__bg-el-box {
+    position: absolute;
+    inset: 0;
+    bottom: -27rem;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+  }
+}
