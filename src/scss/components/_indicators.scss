@@ -1,0 +1,78 @@
+.indicators {
+  /* .indicators__container */
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  &__container {
+  }
+
+  /* .indicators__inner */
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  /* .indicators__title */
+
+  &__title {
+  }
+
+  /* .indicators__text-box */
+
+  &__text-box {
+  }
+
+  /* .indicators__billets-box */
+
+  &__billets-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  /* .indicators__billet */
+
+  &__billet {
+    display: flex;
+    border-radius: 10rem;
+    align-items: center;
+    gap: 3.2rem;
+    backdrop-filter: blur(59px);
+    -webkit-backdrop-filter: blur(59px);
+    background: linear-gradient(90deg, #f893a4 0%, #f891a2 100%);
+    padding: 1rem 1.4rem;
+  }
+
+  /* .indicators__billet-svg-wrapper */
+
+  &__billet-svg-wrapper {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/images/billetBg.svg) no-repeat top/cover;
+  }
+
+  /* .indicators__billet-svg-box */
+
+  &__billet-svg-box {
+    width: 4rem;
+    height: 4rem;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  /* .indicators__billet-text */
+
+  &__billet-text {
+    font-weight: 600;
+    font-size: 3.6rem;
+    color: #fff;
+  }
+}

@@ -1,0 +1,16 @@
+body {
+  background: #fff;
+  color: #165475;
+  font-family: 'Montserrat';
+  .lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+* {
+  // outline:  1px solid red;
+}
+
+
+@import './ui/ui';
