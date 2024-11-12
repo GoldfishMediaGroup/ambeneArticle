@@ -1,0 +1,382 @@
+.banner {
+  padding-bottom: 5.2rem;
+  /* .banner__container */
+  /* .banner__inner */
+  /* .banner__logo */
+  /* .banner__title */
+  /* .banner__bg-wrapper */
+  /* .banner__bg-box */
+  /* .banner__bg-el-box */
+}
+.banner__container {
+  padding-top: 20rem;
+  background: linear-gradient(180deg, #9bc5de 35.89%, #68abd7 100%);
+  border-radius: 0 0 8rem 8rem;
+  position: relative;
+  padding-bottom: 20.2rem;
+  overflow: visible;
+}
+.banner__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 90.8rem;
+}
+.banner__logo {
+  font-weight: 800;
+  font-size: 3.4rem;
+  color: #fff;
+  width: 19rem;
+}
+.banner__title {
+  font-weight: 800;
+  font-size: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.banner__bg-wrapper {
+  position: absolute;
+  inset: 0;
+  top: 4rem;
+  pointer-events: none;
+}
+.banner__bg-box {
+  position: absolute;
+  inset: 0;
+}
+.banner__bg-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.banner__bg-el-box {
+  position: absolute;
+  inset: 0;
+  bottom: -27rem;
+}
+.banner__bg-el-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.what {
+  /* .what__container */
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  /* .what__inner */
+  /* .what__title */
+  /* .what__text-box */
+  /* .what__img-box */
+}
+.what__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.what__img-box {
+  width: 70.2rem;
+  height: 62.2rem;
+  margin: 0 auto;
+  border-radius: 4.8rem;
+  overflow: hidden;
+}
+.what__img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mechanism {
+  /* .mechanism__container */
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  /* .mechanism__inner */
+  /* .mechanism__title */
+  /* .mechanism__text-box */
+  /* .mechanism__img-box */
+}
+.mechanism__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.mechanism__img-box {
+  width: 70.2rem;
+  height: 62.2rem;
+  margin: 0 auto;
+  border-radius: 4.8rem;
+  overflow: hidden;
+}
+.mechanism__img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.indicators {
+  /* .indicators__container */
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  /* .indicators__inner */
+  /* .indicators__title */
+  /* .indicators__text-box */
+  /* .indicators__billets-box */
+  /* .indicators__billet */
+  /* .indicators__billet-svg-wrapper */
+  /* .indicators__billet-svg-box */
+  /* .indicators__billet-text */
+}
+.indicators__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.indicators__billets-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.indicators__billet {
+  display: flex;
+  border-radius: 10rem;
+  align-items: center;
+  gap: 3.2rem;
+  backdrop-filter: blur(59px);
+  -webkit-backdrop-filter: blur(59px);
+  background: linear-gradient(90deg, #f893a4 0%, #f891a2 100%);
+  padding: 1rem 1.4rem;
+}
+.indicators__billet-svg-wrapper {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./assets/images/billetBg.svg) no-repeat top/cover;
+}
+.indicators__billet-svg-box {
+  width: 4rem;
+  height: 4rem;
+}
+.indicators__billet-svg-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.indicators__billet-text {
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.advantages {
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  /* .advantages__container */
+  /* .advantages__inner */
+  /* .advantages__title */
+  /* .advantages__swiper */
+  /* .advantages__swiper-wrapper */
+  /* .advantages__swiper-slide */
+  /* .advantages__slide-inner */
+  /* .advantages__slide-title-box */
+  /* .advantages__slide-title */
+  /* .advantages__slide-num */
+  /* .advantages__slide-text */
+}
+.advantages__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 12.8rem;
+}
+.advantages__swiper {
+  overflow: visible !important;
+  width: 100%;
+  padding-bottom: 5rem !important;
+}
+.advantages__swiper-slide {
+  height: auto !important;
+  transition: all 0.8s !important;
+}
+.advantages__swiper-slide.swiper-slide-active {
+  scale: 1.15;
+}
+.advantages__slide-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  background: linear-gradient(180deg, #9cc6df 0%, #6daed8 65.65%);
+  border-radius: 6.4rem;
+  padding: 4rem 3.6rem 4rem 4rem;
+  width: 100%;
+  height: 100%;
+}
+.advantages__slide-title-box {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.advantages__slide-title {
+  margin-top: -5.5rem;
+  font-weight: 600;
+  font-size: 3.13rem;
+  line-height: 140%;
+  color: #fff;
+}
+.advantages__slide-num {
+  border-radius: 50%;
+  width: 10.4rem;
+  height: 10.8rem;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 150%;
+  color: #fff;
+  background: url(./assets/images/swiperNumBg.svg) no-repeat top/cover;
+  box-shadow: 11px 11px 53px 0 #70a9ca, -11px -11px 21px 0 rgba(176, 219, 244, 0.7);
+}
+.advantages__slide-text {
+  font-weight: 500;
+  font-size: 2.78rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 5.2rem;
+  padding-bottom: 5rem;
+  /* .footer__container */
+  /* .footer__inner */
+  /* .footer__top */
+  /* .footer__sources-wrapper */
+  /* .footer__sources-btn */
+  /* .footer__sources-billet-svg-wrapper */
+  /* .footer__sources-billet-svg-box */
+  /* .footer__sources-billet-svg-min */
+  /* .footer__sources-billet-text */
+  /* .footer__sources-hide-wrapper */
+  /* .footer__sources-hide-inner */
+  /* .footer__sources-hide-title */
+  /* .footer__sources-hide-list */
+  /* .footer__info-text*/
+  /* .footer__link */
+  /* .footer__bottom */
+  /* .footer__bottom-img-box */
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.footer__sources-btn {
+  backdrop-filter: blur(59px);
+  -webkit-backdrop-filter: blur(59px);
+  background: linear-gradient(90deg, #9cc6df 0%, #70b0d9 100%);
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  width: 100%;
+  border-radius: 10rem;
+  padding: 1rem 1.4rem;
+}
+.footer__sources-billet-svg-wrapper {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./assets/images/sourcesBg.svg) no-repeat top/cover;
+}
+.footer__sources-billet-svg-box {
+  width: 4rem;
+  height: 4rem;
+}
+.footer__sources-billet-svg-box svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer__sources-billet-svg-min {
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+.footer__sources-billet-svg-min.isActive {
+  opacity: 0;
+}
+.footer__sources-billet-text {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #fff;
+}
+.footer__sources-hide-wrapper {
+  display: none;
+}
+.footer__sources-hide-inner {
+  margin-top: 3rem;
+  border-radius: 6.4rem;
+  background: linear-gradient(180deg, #9bc6df 0%, #73b2da 100%);
+  -webkit-backdrop-filter: blur(59px);
+  backdrop-filter: blur(59px);
+  padding: 4.8rem 4.8rem 6.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.footer__sources-hide-title {
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #fff;
+}
+.footer__sources-hide-list {
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: #fff;
+  padding-left: 3rem;
+  margin: 0;
+}
+.footer__sources-hide-list a {
+  word-wrap: break-word;
+}
+.footer__info-text {
+  font-weight: 400;
+  font-size: 2.6rem;
+  text-align: center;
+  color: #165475;
+}
+.footer__link {
+  backdrop-filter: blur(59px);
+  -webkit-backdrop-filter: blur(59px);
+  background: linear-gradient(90deg, #f893a4 0%, #f891a2 100%);
+  font-weight: 600;
+  font-size: 4rem;
+  color: #fff;
+  padding: 3.6rem;
+  text-align: center;
+  border-radius: 10rem;
+}
+.footer__bottom-img-box {
+  width: 70.2rem;
+  height: 9rem;
+}
+.footer__bottom-img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=kuloverova.css.map */

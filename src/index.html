@@ -7,7 +7,6 @@
   </head>
   <body>
     <div class="wrapper">
-
       <main>
         <include src="./components/_banner.html"></include>
         <include src="./components/_what.html"></include>
@@ -16,7 +15,22 @@
         <include src="./components/_indicators.html"></include>
       </main>
       <include src="./components/_footer.html"></include>
-
     </div>
   </body>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      try {
+        clickFooterBtn();
+      } catch {}
+    });
+
+    function clickFooterBtn() {
+      const btn = document.querySelector('.footer__link');
+
+      btn.addEventListener('click', () => {
+        window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'openPromotion' }));
+      });
+    }
+  </script>
 </html>

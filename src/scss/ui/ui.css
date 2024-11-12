@@ -1,0 +1,20 @@
+.title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: #165475;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.text-box p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 3.2rem;
+  /* line-height: 24px; */
+  line-height: 150%;
+  color: #165475;
+}/*# sourceMappingURL=ui.css.map */

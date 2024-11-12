@@ -7,7 +7,6 @@
   <script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
   <body>
     <div class="wrapper">
-
       <main>
         <section class="banner">
   <div class="banner__container container">
@@ -295,7 +294,7 @@
           Реклама. Рекламодатель. ООО «ПРОМОМЕД ДМ» ОГРН 1167746497280 <br>
           erid:
         </p>
-        <a href="#" class="footer__link">Перейти в акцию</a>
+        <button class="footer__link">Перейти в акцию</button>
       </div>
       <div class="footer__bottom">
         <div class="footer__bottom-img-box">
@@ -306,7 +305,22 @@
   </div>
 </footer>
 
-
     </div>
   </body>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      try {
+        clickFooterBtn();
+      } catch {}
+    });
+
+    function clickFooterBtn() {
+      const btn = document.querySelector('.footer__link');
+
+      btn.addEventListener('click', () => {
+        window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'openPromotion' }));
+      });
+    }
+  </script>
 </html>
