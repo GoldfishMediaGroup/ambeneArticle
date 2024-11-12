@@ -43,3 +43,4 @@ function footerSources() {
     $line.toggleClass('isActive'); // Тоггл класса active у line
   });
 }
+
